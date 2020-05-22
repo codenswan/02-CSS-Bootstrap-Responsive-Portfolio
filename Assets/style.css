@@ -1,10 +1,51 @@
-.wrapper {
-    background-color: cyan;
-    width: 100%;
-    height: auto;
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color: rgb(238, 238, 16);
+    height: 100%;
 }
 
-.navbar-light .navbar-text {
-    color: white;
-    font-size: larger;
+.navbar {
+    padding: 20px;
+    /* margin-left: 40px; */
+    margin-bottom: 40px;
+}
+
+.navbar .navbar-text{
+    background-color: darkgray;
+}
+
+main .container {
+    width: 300px;
+    background-color: white;
+}
+
+main img {
+    float: left;
+    padding-right: 10px;
+}
+
+.container {
+    width: 60%;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    position: fixed;
+    width: 100%;
+  }
+
+.card-header {
+    font-size: 24px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.btn {
+    margin: 20px;
 }

@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Page</title>
+    <title>Contact</title>
     <link rel="icon" href="Assets/favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-light" style="background-color: pink;">
-        <div class="container-fluid">
-        <span class="navbar-text">
-            <img src="Assets/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="bearded face" loading="lazy">
-            Dan Swan
-        </span>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg" style="background-color: pink;">
+
+
+            <span class="navbar-text">
+                <img src="Assets/favicon.ico" width="30" height="30" class="d-inlin ̰e-block align-top"
+                    alt="bearded face" loading="lazy" />
+                Dan Swan
+            </span>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="card border-light mb-3" style="max-width: 80rem;">
+            <div class="card-header">Contact</div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-    </nav>
-    
+    </div>
+    </div>
 </body>
+
 </html>

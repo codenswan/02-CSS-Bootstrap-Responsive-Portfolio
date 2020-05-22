@@ -1,0 +1,10 @@
+.wrapper {
+    background-color: cyan;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-light .navbar-text {
+    color: white;
+    font-size: larger;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#wholePage {
+    min-height: 100%;
+}
+
+
+
+.col-12 {
+    text-align: center;
+
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    background-color: ;
+}
+
+.card {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.bioPic {
+    padding-right: 1rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.main {
+    height: 100vh;
+    margin-top: 5rem;
+    overflow: auto;
+    padding-bottom: 100px;
+    
+}
+
+label {
+    margin-top: 40px;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: #343a40;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;    
+}
+
+.text-muted {
+    color: white;
+}
